@@ -10,7 +10,7 @@ resource "aws_db_instance" "myRDS" {
     engine_version = "10.2.21"
     username = "olly"
     password = "password123"
-    port = 80
+    port = 3306
     allocated_storage = 20
     skip_final_snapshot = true
 
